@@ -17,14 +17,14 @@
 @import url("prettyPhoto.css") screen;
 @import url("hoverex-all.css") screen;
 
-* { 
+* {
 	margin: 0;
 	padding: 0px;
     font-family: 'Lato', sans-serif;
-} 
-body { 
-	background: #fff; 
-	margin: 0; 
+}
+body {
+	background: #fff;
+	margin: 0;
 	color: #5a5a5a;
 }
 
@@ -34,15 +34,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-p { 
-	padding: 0; 
-	margin-bottom: 12px; 
+p {
+	padding: 0;
+	margin-bottom: 12px;
     font-family: 'Lato', sans-serif;
 	font-weight: 300;
-	font-size: 18px; 
+	font-size: 18px;
 	line-height: 28px;
-	color: #666; 
-	margin-top: 10px; 
+	color: #666;
+	margin-top: 10px;
 }
 
 html,
@@ -92,10 +92,10 @@ body {
 	padding: 0;
 	margin: 0;
 }
-a { 
+a {
 	padding: 0;
 	margin: 0;
-	text-decoration: none; 
+	text-decoration: none;
 	-webkit-transition: background-color .4s linear, color .4s linear;
 	-moz-transition: background-color .4s linear, color .4s linear;
 	-o-transition: background-color .4s linear, color .4s linear;
@@ -205,9 +205,9 @@ input {
 	padding-top: 5px;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 700px;
+	min-height: 614px;
 	width: 100%;
-	
+
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -298,14 +298,21 @@ input {
 
 /* CONTACT SEPARATOR */
 #sep {
-	background: url(../img/sep.jpg) no-repeat center top;
+	background: url(../img/atlanta.jpeg) no-repeat center top;
 	padding-top: 100px;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 450px;
+	min-height: 530px;
 	width: 100%;
 	color: white;
-	
+
+	/*position: absolute;*/
+	/*top: 0;
+	left: 0;*/
+	width: 100%;
+	height: 100%;
+	background-color: rgba(45, 51, 57, 0.45);
+
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -347,7 +354,7 @@ input {
 	background-position: center center;
 	min-height: 700px;
 	width: 100%;
-	
+
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -375,4 +382,17 @@ input {
 #h2 h3 {
 	margin-top: 30px;
 	letter-spacing: 1px;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(45, 51, 57, 0.45);
+}
+
+.icon-large {
+	font-size: 80px;
 }
