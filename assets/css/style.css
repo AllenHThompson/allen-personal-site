@@ -205,7 +205,7 @@ input {
 	padding-top: 5px;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 614px;
+	min-height: 735px;
 	width: 100%;
 
     -webkit-background-size: 100%;
@@ -249,7 +249,7 @@ input {
 
 .portfolio {
 	padding:0 !important;
-	margin:0 !important;
+	/*margin:0 !important;*/
 	display:block;
 }
 
@@ -396,3 +396,18 @@ input {
 .icon-large {
 	font-size: 80px;
 }
+
+
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #c1c1c1;
+  background-color: transparent;
+}
+
+.col-md-offset-1 {
+    margin-left: 10.33333333%;
+}
+/*h1 { font-family: 'Kaushan Script', cursive, Arial, serif; font-weight: 400; }*/
